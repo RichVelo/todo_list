@@ -5,10 +5,10 @@
 <html lang="en-GB">
 
 <head>
-    <title>Bikes</title>
+    <title>To-Do List</title>
 </head>
 <body>
-<h1>Look at my bikes data!</h1>
+<h1>What do we need to do today?</h1>
 <ul>
     <?php
 

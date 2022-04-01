@@ -14,7 +14,7 @@ class TaskListPageController
 
     public function __invoke($request, $response, $args)
     {
-        $bikes = $this->taskListModel->getAllTasks();
+        $tasks = $this->taskListModel->getAllTasks();
         $data = ['tasks' => $tasks];
         return $this->renderer->render($response, 'index.php', $data);
     }
