@@ -32,6 +32,10 @@ return function (ContainerBuilder $containerBuilder) {
         $renderer = new PhpRenderer($settings['template_path']);
         return $renderer;
     };
+    $container['taskListModel'] = DI\factory('\App\Factories\TaskListModelFactory');
+
+    $container['taskListPageController'] = DI\factory('\App\Factories\TaskListPageControllerFactory');
 
     $containerBuilder->addDefinitions($container);
+
 };
