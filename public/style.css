@@ -11,7 +11,7 @@
 }
 
 body {
-    color: #ffffff;
+    color: #3b3b3b;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 
 header {
     margin-top: 50px;
-    background-color: #1a1a1a;
+    background-color: #58b1d9;
     padding-top: 50px;
     width: 40%;
     display: flex;
@@ -29,8 +29,8 @@ header {
 }
 
 header h1 {
-    background-color: #282828;
-    border: 1px solid #be4bc4;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 10px;
 }
@@ -39,11 +39,11 @@ main {
     padding: 50px;
     width: 40%;
     min-height: 50vh;
-    background-color: #1a1a1a;
+    background-color: #58b1d9;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    column-gap: 50px;
+    row-gap: 50px;
 }
 
 .list {
@@ -52,19 +52,19 @@ main {
     flex-wrap: wrap;
     overflow: visible;
     row-gap: 10px;
-    background-color: #282828;
-    border: 1px solid #be4bc4;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 25px;
-    width: 60%;
+    width: 100%;
     min-height: 40%;
 }
 
 .add-task-form {
     display: flex;
     flex-direction: column;
-    background-color: #282828;
-    border: 1px solid #be4bc4;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     padding: 20px;
     border-radius: 5px;
     width: 40%;

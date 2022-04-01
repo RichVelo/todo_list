@@ -16,6 +16,13 @@
         <h1>What do we need to do today?</h1>
     </header>
     <main>
+        <section class="add-task-form">
+            <h2>Add a new task</h2>
+                <form method="POST">
+                    <input class="newTask" name="taskTitle" placeholder="What's the task?">
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+        </section>
         <div class="list">
             <h2>To get done:</h2>
             <ul>
@@ -27,13 +34,6 @@
                 ?>
             </ul>
         </div>
-        <section class="add-task-form">
-            <h2>Add a new task</h2>
-                <form method="POST">
-                    <input class="newTask" name="taskTitle" placeholder="What's the task?">
-                    <input class="submit" type="submit" value="Submit">
-                </form>
-        </section>
     </main>
 </body>
 </html>
