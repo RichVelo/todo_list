@@ -17,4 +17,11 @@ class TaskListModel
         $query->execute();
         return $query->fetchAll();
     }
+
+    public function addNewTask()
+    {
+        $query = $this->db->prepare('INSERT INTO `tasks`(`taskTitle`) VALUE (:taskTitle)');
+        $query->execute([':taskTitle' => $_POST['taskTitle']]);
+        return $query->fetchAll();
+    }
 }
