@@ -34,7 +34,7 @@ return function (ContainerBuilder $containerBuilder) {
     };
     $container['taskListModel'] = DI\factory('\App\Factories\TaskListModelFactory');
 
-    $container['TaskListPageController'] = DI\factory('\App\Factories\TaskListPageControllerFactory');
+    $container['taskListPageController'] = DI\factory('\App\Factories\TaskListPageControllerFactory');
 
     $containerBuilder->addDefinitions($container);
 
