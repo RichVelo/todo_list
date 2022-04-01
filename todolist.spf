@@ -79,13 +79,13 @@
 			<key>contentSortColIsAsc</key>
 			<true/>
 			<key>contentViewport</key>
-			<string>{{0, 0}, {1224, 699}}</string>
+			<string>{{0, 0}, {1225, 699}}</string>
 			<key>isToolbarVisible</key>
 			<true/>
 			<key>table</key>
 			<string>tasks</string>
 			<key>view</key>
-			<string>SP_VIEW_CONTENT</string>
+			<string>SP_VIEW_STRUCTURE</string>
 			<key>windowVerticalDividerPosition</key>
 			<real>214</real>
 		</dict>
